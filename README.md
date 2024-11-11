@@ -8,7 +8,7 @@ Developing a solution to the Artificial Intelligence Mathematical Olympiad chall
 
 To install and activate the development environment using conda:
 ```bash
-conda env create -f environment.yml
+conda env create -f environment.yml --no-builds
 conda activate aimo
 ```
 
