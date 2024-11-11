@@ -1,23 +1,10 @@
 name: aimo
 channels:
-  - pytorch
   - defaults
 dependencies:
   - ipykernel=6.29.5
-  - numpy=1.26.4
   - pip=24.2
   - python=3.12.7
-  - pytorch=2.5.0
-  - pytorch-cuda=12.4
   - pip:
-    - accelerate==1.0.1
-    - bitsandbytes==0.44.1
-    - datasets==3.0.1
-    - flash-attn==2.6.3
-    - huggingface-hub==0.25.2
-    - ipywidgets==8.1.5
-    - peft==0.13.2
-    - transformers==4.45.2
-    - trl==0.11.4
-    - kaggle==1.6.17
     - vllm==0.6.3.post1
+    - ipywidgets==8.1.5
