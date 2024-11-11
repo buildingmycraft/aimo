@@ -20,3 +20,4 @@ dependencies:
     - transformers==4.45.2
     - trl==0.11.4
     - kaggle==1.6.17
+    - vllm==0.6.3.post1
